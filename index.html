@@ -3,34 +3,36 @@
 <head>
     <link href="styles.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
     <title>Calculator</title>
 </head>
 <body>
-    <h1>Calculator</h1>
+    <h1>calculator</h1>
     <div class="container">
-        <div>
+        <div class="calc-contain">
             <div class="display">
                 <div id="display-numbers">0</div>
+                <div class="calc-model">github.com/baz9</div>
             </div>
-            <button class="buttons ac" data-key="ac">AC</button>
-            <button class="buttons operator" data-key="-/+">+/-</button>
-            <button class="buttons" data-key="%">%</button>
-            <button class="buttons operator" data-key="divide">/</button>
-            <button class="buttons numpad" data-key=7>7</button>
-            <button class="buttons numpad" data-key=8>8</button>
-            <button class="buttons numpad" data-key=9>9</button>
-            <button class="buttons operator" data-key="multiply">*</button>
-            <button class="buttons numpad" data-key=4>4</button>
-            <button class="buttons numpad" data-key=5>5</button>
-            <button class="buttons numpad" data-key=6>6</button>
-            <button class="buttons operator" data-key="subtract">-</button>
-            <button class="buttons numpad" data-key=1>1</button>
-            <button class="buttons numpad" data-key=2>2</button>
-            <button class="buttons numpad" data-key=3>3</button>
-            <button class="buttons operator" data-key="add">+</button>
-            <button class="buttons zero" data-key=0>0</button>
-            <button class="buttons" data-key=".">.</button>
-            <button class="buttons equals" data-key="=">=</button>
+            <button class="buttons ac" data-num="ac">AC</button>
+            <button class="buttons operator" data-num="divide">/</button>
+            <button class="buttons numpad" data-num=7 data-key="55">7</button>
+            <button class="buttons numpad" data-num=8 data-key="56">8</button>
+            <button class="buttons numpad" data-num=9 data-key="57">9</button>
+            <button class="buttons operator" data-num="multiply">*</button>
+            <button class="buttons numpad" data-num=4 data-key="52">4</button>
+            <button class="buttons numpad" data-num=5 data-key="53">5</button>
+            <button class="buttons numpad" data-num=6 data-key="54">6</button>
+            <button class="buttons operator" data-num="subtract">-</button>
+            <button class="buttons numpad" data-num=1 data-key="49">1</button>
+            <button class="buttons numpad" data-num=2 data-key="50">2</button>
+            <button class="buttons numpad" data-num=3 data-key="51">3</button>
+            <button class="buttons operator" data-num="add">+</button>
+            <button class="buttons numpad zero" data-num=0 data-key="48">0</button>
+            <button class="buttons numpad" data-num="." data-key="190">.</button>
+            <button class="buttons equals" data-num="=">=</button>
         </div>
     </div>
 
